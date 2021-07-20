@@ -7,6 +7,7 @@
 //  https://erasmojf.github.io/
 //  Fidju de Bideira de Feira de Caracol
 
+
 import SwiftUI
 
 struct NavigationBarView: View {

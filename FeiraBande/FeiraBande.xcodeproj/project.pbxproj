@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F36A5F3026A70908005ABA93 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A5F2F26A70908005ABA93 /* FeaturedItemView.swift */; };
+		F36A5F3226A70B93005ABA93 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36A5F3126A70B93005ABA93 /* FeaturedTabView.swift */; };
 		F3BB69AA26A5DCF9005B58B7 /* FeiraBandeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69A926A5DCF9005B58B7 /* FeiraBandeApp.swift */; };
 		F3BB69AC26A5DCF9005B58B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69AB26A5DCF9005B58B7 /* ContentView.swift */; };
 		F3BB69AE26A5DCFA005B58B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BB69AD26A5DCFA005B58B7 /* Assets.xcassets */; };
@@ -19,9 +21,13 @@
 		F3BB69CC26A5E64D005B58B7 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69CB26A5E64D005B58B7 /* FooterView.swift */; };
 		F3BB69CE26A5F127005B58B7 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69CD26A5F127005B58B7 /* NavigationBarView.swift */; };
 		F3BB69D026A5F66D005B58B7 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69CF26A5F66D005B58B7 /* LogoView.swift */; };
+		F3BB69D426A6156A005B58B7 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69D326A6156A005B58B7 /* PlayerModel.swift */; };
+		F3BB69D626A6162E005B58B7 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BB69D526A6162E005B58B7 /* CodableBundleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F36A5F2F26A70908005ABA93 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		F36A5F3126A70B93005ABA93 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
 		F3BB69A626A5DCF9005B58B7 /* FeiraBande.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeiraBande.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BB69A926A5DCF9005B58B7 /* FeiraBandeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeiraBandeApp.swift; sourceTree = "<group>"; };
 		F3BB69AB26A5DCF9005B58B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +42,8 @@
 		F3BB69CB26A5E64D005B58B7 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		F3BB69CD26A5F127005B58B7 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		F3BB69CF26A5F66D005B58B7 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		F3BB69D326A6156A005B58B7 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		F3BB69D526A6162E005B58B7 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +132,8 @@
 				F3BB69CB26A5E64D005B58B7 /* FooterView.swift */,
 				F3BB69CD26A5F127005B58B7 /* NavigationBarView.swift */,
 				F3BB69CF26A5F66D005B58B7 /* LogoView.swift */,
+				F36A5F2F26A70908005ABA93 /* FeaturedItemView.swift */,
+				F36A5F3126A70B93005ABA93 /* FeaturedTabView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -138,6 +148,7 @@
 		F3BB69C626A5E1C7005B58B7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F3BB69D326A6156A005B58B7 /* PlayerModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +156,7 @@
 		F3BB69C726A5E1D2005B58B7 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				F3BB69D526A6162E005B58B7 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -230,12 +242,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BB69D626A6162E005B58B7 /* CodableBundleExtension.swift in Sources */,
 				F3BB69AC26A5DCF9005B58B7 /* ContentView.swift in Sources */,
 				F3BB69D026A5F66D005B58B7 /* LogoView.swift in Sources */,
 				F3BB69CC26A5E64D005B58B7 /* FooterView.swift in Sources */,
+				F36A5F3026A70908005ABA93 /* FeaturedItemView.swift in Sources */,
 				F3BB69AA26A5DCF9005B58B7 /* FeiraBandeApp.swift in Sources */,
 				F3BB69CA26A5E335005B58B7 /* Constant.swift in Sources */,
 				F3BB69CE26A5F127005B58B7 /* NavigationBarView.swift in Sources */,
+				F36A5F3226A70B93005ABA93 /* FeaturedTabView.swift in Sources */,
+				F3BB69D426A6156A005B58B7 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

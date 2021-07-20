@@ -21,6 +21,7 @@ struct LogoView: View {
                 .font(.title3)
                 .fontWeight(.black)
                 .foregroundColor(.black)
+            
             Image("logo-dark")
                 .resizable()
                 .scaledToFit()

@@ -29,8 +29,20 @@ struct ContentView: View {
                  
                 CategoryGridView()
                 
+                
+                
                 ScrollView(.vertical, showsIndicators: false, content: {
                     VStack(spacing: 0) {
+                        
+                        TitleView(title: "Helmets")
+                        
+                        LazyVGrid(columns: gridLayout, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, spacing: 15, content: {
+                            ForEach(products) { product in
+                                ProductItemView(product: product)
+                            }//LOOP
+                        })//GRID
+                        .padding(15)
+                        
                         FooterView()
                             .padding(.horizontal)
                     }// VStack

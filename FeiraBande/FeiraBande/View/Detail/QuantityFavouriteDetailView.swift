@@ -3,7 +3,9 @@
 //  FeiraBande
 //
 //  Created by Erasmo J.F Da Silva on 22/07/21.
-//
+//  SwiftUI ♡ Better Apps. Less Code
+//  https://erasmojf.github.io/
+//  Fidju de Bideira de Feira de Caracol
 
 import SwiftUI
 
@@ -18,6 +20,7 @@ struct QuantityFavouriteDetailView: View {
         HStack(alignment: .center, spacing: 6, content: {
             Button(action: {
                 if counter > 0 {
+                    feedback.impactOccurred()
                     counter -= 1
                 }
             }, label: {
@@ -30,6 +33,7 @@ struct QuantityFavouriteDetailView: View {
             
             Button(action: {
                 if counter < 10000 {
+                    feedback.impactOccurred()
                     counter += 1
                 }
             }, label: {
@@ -38,7 +42,9 @@ struct QuantityFavouriteDetailView: View {
             
             Spacer()
             
-            Button(action: {}, label: {
+            Button(action: {
+                feedback.impactOccurred()
+            }, label: {
                 Image(systemName: "heart.circle")
                     .foregroundColor(.pink)
             })

@@ -10,7 +10,7 @@
 import SwiftUI
 
 struct ContentView: View {
-   // MARK: - PROPERTIES
+    // MARK: - PROPERTIES
     @EnvironmentObject var shop: Shop
     
     // MARK: - BODY
@@ -27,7 +27,7 @@ struct ContentView: View {
                         .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                     FeaturedTabView()
                         .padding(.vertical, 20)
-                     
+                    
                     CategoryGridView()
                     
                     ScrollView(.vertical, showsIndicators: false, content: {
@@ -49,7 +49,7 @@ struct ContentView: View {
                             })//GRID
                             .padding(15)
                             
-                           TitleView(title: "Brands")
+                            TitleView(title: "Brands")
                             
                             BrandGidView()
                             

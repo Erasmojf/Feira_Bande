@@ -23,9 +23,9 @@ struct NavigationBarDetailView: View {
                     shop.showinProduct = false
                 }
             }, label: {
-               Image(systemName: "chevron.left")
-                .font(.title)
-                .foregroundColor(.white)
+                Image(systemName: "chevron.left")
+                    .font(.title)
+                    .foregroundColor(.white)
             })//BUTTON
             
             Spacer()
